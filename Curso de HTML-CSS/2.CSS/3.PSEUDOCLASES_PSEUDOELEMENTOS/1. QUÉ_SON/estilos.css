@@ -1,0 +1,11 @@
+/*las seudoclases son los estados que toma una clase
+	al pasar el clic sobre una opcion*/
+a:hover{
+	color:green;
+}
+
+/*Nos permite seleccionar objetos que estan contenidos dentro de
+los elementos*/
+p::first-line{/*selecciona la primera linea del parrafo*/
+	color:red;
+}

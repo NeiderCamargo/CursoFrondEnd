@@ -1,0 +1,37 @@
+ul li{
+	list-style-type: none;
+	display: inline;
+}
+a{
+	display: inline-block;
+	background-color: #01413A;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+/*seleccionar cada linea de cada parrafo*/
+p::first-line{
+	color: red;
+}
+/*seleccionar cada letra de cada parrafo*/
+p::first-letter{
+	color: blue;
+}/*cambiar el color cuando seleccionamos texto*/
+p::selection{
+	color: white;
+	background-color: black;
+}
+/*añadir contenido, antes de los elementos*/
+p::before{
+	content: "esto es un elemento antes";
+	display:block;
+	color:white;
+	background-color: black;
+}
+/*añadir contenido, despues de los elementos*/
+p::after{
+	content: "esto es un elemento despues";
+	display:block;
+	color:white;
+	background-color: black;
+}

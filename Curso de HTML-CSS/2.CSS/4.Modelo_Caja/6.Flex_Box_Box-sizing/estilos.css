@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.padre{
+	width: 80%;
+	max-width: 800px;
+	/*height: 500px;*/
+	background-color: green; 
+	display: flex;/*cajas flexibles*/
+
+	/*flex-direction: row;/*forma en que se muestra la caja*/
+	/*flex-wrap: wrap;/*cambia el tamaño de la caja, para que se adapte a la caja padre*/*
+	flex-flow:row wrap;
+	justify-content: center;/*space-between=("medio, izquierda, derecha) space-araund=("igual anterior con espacios en los bordes")
+	/*posiciones de las cajas*/
+	/*align-items: flex-start;/*end(posicion abajo),streetch=(altura caja) baseline(alinea los textos dentro de las cajas segun su bas)*/
+	/*align-content: flex-center; /*posicion cuando hay mas de una linea*/
+}
+
+.caja{
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	margin: 20px;
+	padding: 10px;
+	font-size: 50px;
+	text-align:center;
+
+	/*flex-grow: 1;/*se reparten las cajas el espacio*/
+	flex-shrink: 1;
+	flex-basis: 100px;/*es lo mismo que witch*/
+	flex:1 1 auto;
+}
+.dos{
+	/*order: 2;/*agrupa la caja 2 en un grupo 2 y las otras dos cajas quedan en un grupo 1*/
+	/*flex-grow: 2;/*crece la caja el doble que las otras cajas*/
+	/*flex-shrink: 2;*/
+	flex-shrink: 0;/*no se reduce el cuadro*/
+
+
+}
+/*.caja2{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	padding: 20px;
+}
+*/

@@ -1,0 +1,12 @@
+.cuadro{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 50px;
+
+	/*transform: rotate(-30deg);
+	transform: scale(2,0.5);
+	transform: translateY(200px);*/
+	transform: scale(2, 0.5) translate(100px, 50px) rotate(30deg);
+
+}

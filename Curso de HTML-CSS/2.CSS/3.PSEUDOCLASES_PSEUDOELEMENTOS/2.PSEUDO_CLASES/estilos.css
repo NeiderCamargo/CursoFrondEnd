@@ -1,0 +1,27 @@
+ul li{
+	list-style-type: none;
+	display: inline;
+}
+a{
+	display: inline-block;
+	background-color: #01413A;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+/*Cambiar el color al poner encima el clic*/
+a:hover{
+	background-color:green;
+}
+/*cuando presionamos el enlace*/
+a:active{
+	background-color: blue;
+}
+/*cambiar el color a una pagina ya visitada*/
+a:visited{
+	background-color: red;
+}
+/*Aplicar propiedades a un elemento, especificando el elemento*/
+p:nth-child(3){
+	color:red;
+}

@@ -1,0 +1,11 @@
+/*Como es en cascada primero le da prioridad
+a el ultimo atributo, para especificar un
+atributo se le agrega !important
+*/
+body{
+	color: red !important;
+}
+
+body{
+	color: blue;
+}

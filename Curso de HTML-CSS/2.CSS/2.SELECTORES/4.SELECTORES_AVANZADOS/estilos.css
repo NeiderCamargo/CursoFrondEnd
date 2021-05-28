@@ -1,0 +1,22 @@
+/*Selector Universal*/
+*{
+	color: red;
+}
+/*selector adyacente: elemento precedido poe otro elemento*/
+h1+h2{
+	color:green;
+}
+/*selector hermanos: elemento hermano de otro elemento*/
+h1+h2{
+	color:green;
+}
+/*selector decendente: "todos los p, que esten dentro de section*/
+
+section p{
+	color: green;
+}
+/*selector hijo directo: que sean hijos directos de section*/
+section > p{
+	color: red;
+}
+

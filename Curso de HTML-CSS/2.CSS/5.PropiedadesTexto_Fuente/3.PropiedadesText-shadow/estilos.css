@@ -1,0 +1,15 @@
+/*Propiedad de sombras*/
+h1, p{
+	text-shadow: 1px/*desplazamiento orizontal*/ 1px/*vertical*/ 3px /*desenfoque*/ black;
+}
+/*prefijo de los navegadores*/
+/*
+-moz-:mozilla
+-webkit-:chrome, edge chromium
+-o-:opera
+-ms:para explores, edge
+*/
+img{
+	box-shadow: 5px 5px 3px #855885;
+
+}

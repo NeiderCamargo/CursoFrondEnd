@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.caja{
+	width: 200px;
+	height: 200px;
+	background-color: #dddddd;
+	margin: 20px;
+}
+.posicionada{
+	/*background-color: green;
+	position: relative;
+	left: 250px;
+	top: 20px;
+	right:  
+	botto:;*/
+	/*background-color: green;
+	position: absolute;
+	left:  ;
+	top: 20px ;
+	right: 20px;  
+	botto:;*/
+	background-color: green;
+	position: fixed;
+	left: ;
+	top:0% ;
+	right:0%;
+	bottom: ;
+}
+
+/*
+Posicion estatica, relatia, absoluta, fija y flotante
+*/

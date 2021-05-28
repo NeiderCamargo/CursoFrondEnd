@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Campos</title>
+</head>
+<body>
+
+	<form>
+		<!--Campo de texto></!-->
+		<p>
+			<label for="ca_nombre">Nombre:</label>
+			<input type="text" name="nombre" id="ca_nombre" placeholder="Nombre" autofocus><!--Colocar el mause en el formulario></!-->
+		</p>
+		<!--Campo de contraseña></!-->
+		<p>
+			<label for="password">Contraseña:</label>
+			<input type="password" name="psw" id="password"required>
+		</p>
+		<!--Campo de Email></!-->
+		<p>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" maxlength="2"><!--Numero de caracteres></!-->
+	    </p>
+	    <!--Campo fecha></!-->
+	    <p>
+	    	<label for="fecha">Fecha:</label>
+	    	<input type="date" name="fecha" id="fecha">
+	    </p>
+	    <!--Fecha y hora></!-->
+	    <p>
+	    	<label for="fecha">Fecha -hora local</label>
+	    	<input type="datetime-local" name="fecha" id="fecha">
+	    </p>
+	    <!--Subier archivos></!-->
+	    <p>
+	    	<label for="archivos">Subir Archivo:</label>
+	    	<input type="file" name="archivos" id="archivos">
+	    </p>
+	    <!--Campo de mes></!-->
+	    <p>
+	    	<label for="mes">Campo de mes</label>
+	        <input type="month" name="mes" id="mes">
+	    </p>
+	    <!--Campo de numero></!-->
+	    <p>
+	    	<label for="numero">Numero:</label>
+	    	<input type="number" name="numero" id="numero" max="10" min="5" step="2"><!--Avanza de dos en dos></!-->
+	    </p>
+	    <!--Campo de rango></!-->
+	    <p>
+	    	<label for="rango">Rango:</label>
+	    	<input type="range" name="rango" id="rango">
+	    </p>
+	    <!--Campo buscar></!-->
+	    <p>
+	    	<label for="buscar">Buscar:</label>
+	    	<input type="search" name="buscar" id="buscar">
+	    </p>
+	     <!--Campo telefono></!-->
+	    <p>
+	    	<label for="telefono">Telefono:</label>
+	    	<input type="tel" name="telefono" id="telefono">
+	    </p>
+	     <!--Campo de hora></!-->
+	    <p>
+	    	<label for="hora">Buscar:</label>
+	    	<input type="time" name="hora" id="hora">
+	    </p>
+	     <!--Campo URL></!-->
+	    <p>
+	    	<label for="url">URL:</label>
+	    	<input type="url" name="URL" id="url">
+	    </p>
+	     <!--Campo semana></!-->
+	    <p>
+	    	<label for="week">semana:</label>
+	    	<input type="week" name="week" id="week">
+	    </p>
+	     <!--Campo de selección></!-->
+	    <p>
+	    	<select>
+	    		<option>Item #1</option>
+	    		<option>Item #2</option>
+	    		<option>Item #3</option>
+	    	</select>
+	    </p>
+	     <!--Campo Radio></!-->
+	    <p>
+	    	<label for="comida">Comida:</label>
+	    	<input type="radio" name="comida"> Hamburguesa
+	    	<input type="radio" name="comida"> Ensalada
+	    </p>
+	     <!--Campo checkbox></!-->
+	    <p>
+	    	<label for="comida">Comida:</label>
+	    	<input type="checkbox" name="comida1">Naranja
+	    	<input type="checkbox" name="comida2">Manzana
+	    </p>
+	    <!--Campo de color></!-->
+	    <p>
+	    	<label for="color">Color:</label>
+	    	<input type="color" name="color" id="color">
+	    </p>
+	    <!--Campo semana></!-->
+	    <p>
+	    	<label for="comentario">Comentarios:</label>
+	    	<textarea type="comentario" name="areatexto" rows="8" cols="80"></textarea>
+	    </p>
+	    <!--Boton enviar y borrar></!-->
+	    <p>
+	    	<input type="submit" value="Enviar">
+	    	<input type="reset" value="Borrar">
+	    </p>
+	</form>
+
+</body>
+</html>

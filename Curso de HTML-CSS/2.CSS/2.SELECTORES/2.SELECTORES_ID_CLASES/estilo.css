@@ -1,0 +1,16 @@
+#lectura{
+	color: red;
+}
+
+#parrafo{
+	color: blue;
+}
+
+#texto{
+	color: green;
+}
+
+.estilo{
+	color: blue;
+	font-size: 50px;
+}

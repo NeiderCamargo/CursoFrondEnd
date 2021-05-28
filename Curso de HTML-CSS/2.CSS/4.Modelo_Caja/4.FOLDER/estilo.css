@@ -1,0 +1,21 @@
+.padre{
+	width: 700px;
+	background-color: purple;
+}
+.caja{
+	width: 200px;
+	height: 200px;
+	font-size: 40px;
+	color: white;
+	background-color: green;
+	margin: 20px;
+}
+.primera{
+	float: left;
+}
+.segunda{
+	float: left;
+}
+.limpiar{
+	clear: both;
+}

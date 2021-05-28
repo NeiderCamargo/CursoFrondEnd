@@ -1,0 +1,32 @@
+@media print{/*vista de impresion*/
+	img{
+		width: 100%;
+	}
+	h1{
+		color: red;
+		text-align: center;
+	}
+}
+/*@media screen{
+	img{
+		width: 50%;
+	}
+	h1{
+		color: purple;
+		text-align: right;
+	}
+}*/
+img{
+	width: 50%;
+}
+@media all and (min-width: 421px) and (max-width: 768px){
+	img{
+		width: 80%;
+	}
+}
+@media all and(max-width: 420px){/*dispositivos con maximo de 420ox de ancho, aplique los estilos*/
+	img{
+		width: 100%;
+	}
+
+}

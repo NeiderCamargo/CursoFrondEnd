@@ -1,0 +1,31 @@
+
+a[title]{
+	color:red;
+}
+
+a[href="pagina2.html"]{
+	color: green;
+}
+
+a[href$="html"]{ /*Indica $= todos los valores que terminen en html*/
+	color:red;
+}
+
+a[href^="pagina"]{ /*se aplica a las etiquetas que empiezan con "pagina"*/
+    color:blue;
+}
+
+a[title~="dos"]{/*se aplica a los que tengan la palabras "dos"
+separados por espacios*/
+    color: red;
+}
+
+a[class|="social"]{ /*se aplica a la palabra que este separada por guiones*/
+	color:red;
+}
+
+a[href*="pagina"]{ /*selector universa, aplica estilos, a todo atriburo
+	con el nombre "pagina"*/
+	color: green;
+}
+

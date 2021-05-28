@@ -1,0 +1,29 @@
+/*alinear texto*/
+p{
+	text-align: right;/*center, justify*/
+}
+/*indentar texto*/
+p{
+	text-indent: 100px;
+}
+/*decorar texto*/
+p{
+	text-decoration: underline; /*overline=linea_arriba, line-through=tacha el texto
+	none=quitar decoracion, */
+}
+/*transformar el texto*/
+p{
+	text-transform: capitalize;/*uppercase=todo en mayuscula, lowercase=todo en minuscula*/
+}
+/*espacio entre letras*/
+p{
+	letter-spacing: 5px;
+}
+/*espacio entre palabras*/
+p{
+	word-spacing: 5px;
+}
+/*color de texto*/
+p{
+	color: green;
+}
