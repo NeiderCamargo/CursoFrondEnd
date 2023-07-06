@@ -1,0 +1,31 @@
+/*
+Filtros
+blur(); para desenfocar
+grayscale(); para escala de grises
+sepia(); para efecto sepia
+brigtness(); para ajustar brillo
+constrast(); para ajustar contraste
+hue-retare(); incremenrar el valor de los colores cambiandolos
+invert(); invierte la imagen
+saturate(); ajustar saturacion
+opacity(); ajustar capacidad
+*/
+
+img {
+	width: 300px;
+	margin: 20px;
+}
+
+/*cuando el usuario pase el cursor elimine el filtro*/
+img:hover {
+	filter: none;
+}
+
+.imagen1 {
+	filter: sepia(100%);
+}
+
+/*colocar las imagenes en blanco y negro*/
+.imagen2 {
+	filter: grayscale(100%);
+}

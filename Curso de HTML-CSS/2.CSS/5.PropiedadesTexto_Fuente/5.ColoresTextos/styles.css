@@ -1,0 +1,19 @@
+body {
+    color: #616161;
+}
+
+/*color de la selección con el mause*/
+*::selection {
+    background-color: darkmagenta;
+    color: white;
+}
+
+.cita {
+    color: #dc143c;
+}
+
+/*sombreado de textos*/
+.sombrado {
+    text-shadow: 2px -2px 4px grey;
+    font-size: 36px;
+}

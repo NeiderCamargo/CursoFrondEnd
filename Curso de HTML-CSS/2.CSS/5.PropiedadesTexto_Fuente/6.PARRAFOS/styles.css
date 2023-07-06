@@ -1,0 +1,28 @@
+/*interlineado, separadores de parrafos*/
+p {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: left;
+    /*posición de texto*/
+}
+
+/*subrayar textos*/
+.subrayar {
+    /*text-decoration-line: underline;
+    text-decoration-color: #ff0000;
+    text-decoration-style: wavy;*/
+    text-decoration: underline #ff0000 wavy;
+}
+
+/*propiedades de capitalización*/
+.mayuscula {
+    text-transform: uppercase;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+.capi {
+    text-transform: capitalize;
+}

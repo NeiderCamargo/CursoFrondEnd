@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('image/building-gc6354ebf2_1280.jpg');
+    /*hacer que la imagen tenga el mismo tamaño en todas las pantallas*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*multiplicar la imagen
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    */
+}
+
+.fondo h1 {
+    color: white;
+    padding-top: 150px;
+    font-size: 44px;
+    text-align: center;
+}

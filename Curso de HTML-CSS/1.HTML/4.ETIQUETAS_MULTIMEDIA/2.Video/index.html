@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><meta charset="utf-8">
 	<title>Videos</title>
 </head>
 <body>
-	<video controls width="400px">
+	<video controls width="400px" muted controls
+	preload="none"
+	poster="">
+	<!--preload: hasta no darle play no carga
+	poster: colocar imagen de inicio del video-->
 		<source src="../media/2. Qué es Mysql.mp4" type="video/mp4">
 
+		<!--track: subtitulos-->
+		<track src="/ubicacion"
+		srclang="es"
+		label="castellano"
+		default>
 		<!--
 		formato    media type
 		MP4        video/mp4

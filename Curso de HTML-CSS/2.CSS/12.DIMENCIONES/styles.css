@@ -1,0 +1,55 @@
+/*Aplicar borde*/
+.borde-naranja {
+    border: 1px solid orange;
+}
+
+/*Se le asigna un ancho y alto a la caja que luego seera llamada en html*/
+.caja1 {
+    width: 500px;
+    height: 250px;
+    background-color: orange;
+}
+
+/*se le asigna a la caja2 el tamño que ocupa la caja div en html*/
+.caja2 {
+    width: 500px;
+    background-color: aqua;
+}
+
+.caja3 {
+    width: 50%;
+    /*el 50% del ancho de su elemento padre*/
+    height: 100px;
+    background-color: brown;
+}
+
+/*DESVORDAMIENTO*/
+.cita {
+    width: 80%;
+    height: 80px;
+    background-color: gainsboro;
+    margin: 0 auto;
+    font-size: 28px;
+    /*ocultar el texto desbordado
+    overflow: hidden;*/
+
+    /*barra de scrool. auto=para que se active cuando sea necesario*/
+    overflow-y: auto;
+}
+
+/*DIMENCIÓN MAXIMO Y MINIMA*/
+.responsive {
+    /*maximo tañaño de un elemento*/
+    max-width: 100%;
+}
+
+/*tarjeta*/
+.card {
+    width: 33.33333%;
+    /*tamaño minimo de un elemento html*/
+    min-width: 220px;
+    height: 260px;
+    box-shadow: 2px 2px 4px grey;
+    border-radius: 5px;
+
+}

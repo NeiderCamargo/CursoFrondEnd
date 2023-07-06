@@ -1,0 +1,36 @@
+/*implementa fuente interna*/
+@font-face {
+    font-family: 'indie';
+    font-style: normal;
+    /*estilo de fuente*/
+    font-weight: 400;
+    /*peso*/
+    src: url(fonts/IndieFlower-Regular.ttf);
+}
+
+/*implementa fuente externa*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    /*fuente de la letra en el navegador
+    font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    /*tamaño de letra*/
+    font-size: 32px;
+    font-family: 'indie', serif;
+}
+
+p {
+    font-size: 22px;
+}
+
+/*editar fuentes*/
+.cita {
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+}
